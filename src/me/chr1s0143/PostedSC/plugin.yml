@@ -1,0 +1,31 @@
+name: PostedSC
+main: me.chr1s0143.PostedSC.posted
+version: 1.0
+author: Chris Hall
+description: PostedSC allows staff to reward players for posting on Planet Minecraft (pmc) or Minecraft Forums (mcf)
+
+commands:
+  postedpmc:
+    usage: /postedpmc {player name}
+    description: reward the player for posting on PMC
+    aliases: [ppmc]
+  postedmcf:
+    usage: /postedmcf {player name}
+    description: reward the player for posting on MCF
+    aliases: [pmcf]
+  posted:
+    usage: /posted
+    description: /posted views all available commands
+    aliases: [pst]
+  postedr:
+    usage: /postedr
+    description: reload the config
+    aliases: [prl]
+  posted remove:
+    usage: /posted remove {player name} {site}
+    description: remove a specific player from the list (PMC or MCF)
+    aliases: [prm]
+
+permissions:
+    posted.use:
+        description: Access to /posted
